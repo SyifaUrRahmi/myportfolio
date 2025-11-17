@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Creative Layout</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container text-center">
+        <img src="assets/images/syifa.jpeg" class="hero-img mb-2" />
+        <h1 class="fw-bold display-5">Syifa Ur Rahmi</h1>
+        <p class="lead mb-4">
+          Web Developer • Database Enthusiast • Math Mentor
+        </p>
+        <a
+          href="#projects"
+          class="btn btn-light btn-lg px-4 rounded-pill shadow-sm"
+          >Explore Projects</a
+        >
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <p>
+              Saya adalah lulusan S1 Sistem Informasi Universitas Hasanuddin
+              dengan predikat Cumlaude (IPK 3.97). Saya memiliki manajemen waktu
+              yang baik dan tanggung jawab yang tinggi, terbukti dari kemampuan
+              menjaga prestasi akademik sambil aktif sebagai Asisten Dosen dan
+              Asisten Laboratorium pada mata kuliah Basis Data, Pemrograman Web,
+              dan Pemrograman Mobile.
+            </p>
+            <p>
+              Saya berpengalaman mengembangkan website full-stack menggunakan
+              Laravel dan MySQL, termasuk sistem tryout online dan platform
+              gamifikasi pembelajaran. Selain itu, saya juga merancang REST API
+              berbasis Node.js untuk aplikasi barter barang.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card border-0 shadow-sm p-4 rounded-4">
+              <h5 class="fw-bold mb-1">Universitas Hasanuddin — Makassar</h5>
+              <p class="text-muted mb-2">
+                S1 Sistem Informasi • Agustus 2021 — Juni 2025
+              </p>
+
+              <p class="mb-2">
+                Lulus dengan predikat <strong>Cumlaude (IPK 3.97/4.00)</strong>.
+              </p>
+
+              <ul>
+                <li>
+                  Finalis Pagelaran Mahasiswa Nasional Bidang TIK (Gemastik)
+                  2024
+                </li>
+                <li>MSIB Batch 6 — Cloud Computing, Bangkit Academy 2024</li>
+                <li>Mahasiswa Berprestasi Departemen Matematika 2022–2024</li>
+                <li>
+                  Juara 3 Lomba Karya Tulis Ilmiah Maritim (Teknologi), Unhas
+                  2023
+                </li>
+                <li>
+                  Juara 3 Lomba Karya Tulis Ilmiah Maritim (Poster), Unhas 2023
+                </li>
+              </ul>
+
+              <h6 class="fw-bold mt-4">SMA Negeri 2 Soppeng — Soppeng</h6>
+              <p class="text-muted mb-2">MIPA • 2018 — 2021</p>
+
+              <hr />
+
+              <p class="text-muted">
+                <b>Skripsi: </b>Rancang Bangun Sistem Gamifikasi Berbasis Web
+                untuk Pembelajaran Operasi Hitung Bilangan Bulat pada Siswa
+                Sekolah Dasar (Studi Kasus: SD IT Al-Kautsar Makassar)
+              </p>
+
+              <div class="container">
+                <div class="row g-3">
+                  <div class="col-12 col-md-4">
+                    <img
+                      src="assets/images/homesiswa.png"
+                      class="img-fluid rounded shadow"
+                      alt="beranda siswa"
+                    />
+                    <p class="text-center text-muted mt-1">Beranda Siswa</p>
+                  </div>
+
+                  <div class="col-12 col-md-4">
+                    <img
+                      src="assets/images/lb.png"
+                      class="img-fluid rounded shadow"
+                      alt="papan peringkat"
+                    />
+                    <p class="text-center text-muted mt-1">Papan Peringkat</p>
+                  </div>
+
+                  <div class="col-12 col-md-4">
+                    <img
+                      src="assets/images/kerjalatihan.png"
+                      class="img-fluid rounded shadow"
+                      alt="kerja latihan"
+                    />
+                    <p class="text-center text-muted mt-1">Kerja Latihan</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img
+                      src="assets/images/levelgagal.png"
+                      class="img-fluid rounded shadow"
+                      alt="kerja soal"
+                    />
+                    <p class="text-center text-muted mt-1">Kerja Soal</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img
+                      src="assets/images/admin.png"
+                      class="img-fluid rounded shadow"
+                      alt="beranda admin"
+                    />
+                    <p class="text-center text-muted mt-1">Beranda Admin</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img
+                      src="assets/images/guru.png"
+                      class="img-fluid rounded shadow"
+                      alt="beranda guru"
+                    />
+                    <p class="text-center text-muted mt-1">Beranda Guru</p>
+                  </div>
+                </div>
+              </div>
+              <p class="text-muted mt-1">
+                Sistem ini merupakan website pembelajaran interaktif yang
+                dirancang khusus untuk membantu siswa Sekolah Dasar mempelajari
+                materi operasi hitung bilangan bulat melalui pendekatan
+                gamifikasi. Website ini menggabungkan unsur permainan seperti
+                poin, level, dan papan peringkat untuk meningkatkan motivasi,
+                keterlibatan, dan efektivitas belajar siswa.
+              </p>
+              <p class="small text-muted">
+                <span class="fw-bold">Fullstack -</span> Laravel • MySQL •
+                Bootstrap • JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section id="experience" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="experience-timeline">
+              <!-- Item 1 -->
+              <div class="experience-item">
+                <div class="experience-role">Asisten Laboratorium</div>
+                <p class="text-muted small mt-2">
+                  Mengelola praktikum, mengajar di kelas, menyusun modul,
+                  memberikan asistensi teknis, serta membantu debugging pada
+                  tugas dan proyek mahasiswa.
+                </p>
+
+                <!-- Sistem Basis Data -->
+                <div class="exp-row mt-2">
+                  <span class="experience-org">•&nbsp; Sistem Basis Data</span>
+                  <span class="divider">|</span>
+                  <span class="experience-year"
+                    >Agustus — Desember 2023 & 2024</span
+                  >
+                </div>
+
+                <div class="exp-links mb-3 d-flex align-items-center gap-3">
+                  <!-- Gambar Dokumentasi (tanpa kotak) -->
+                  <img
+                    src="assets/images/basdat.jpg"
+                    alt="Dokumentasi SBD"
+                    class="doc-img"
+                  />
+                  <!-- Kotak GitHub -->
+                  <a
+                    href="https://github.com/SyifaUrRahmi/LAB-BASDAT-6-2023"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                    Repository 2023
+                  </a>
+                  <a
+                    href="https://github.com/SyifaUrRahmi/LAB-BASDAT-02-2024"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                    Repository 2024
+                  </a>
+                </div>
+                <div class="row text-center g-3 ahli">
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">MySQL</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">SQL/HeidiSQL</div>
+                  </div>
+                </div>
+
+                <!-- Pemrograman Web -->
+                <div class="exp-row mt-3">
+                  <span class="experience-org">•&nbsp; Pemrograman Web</span>
+                  <span class="divider">|</span>
+                  <span class="experience-year"
+                    >Agustus 2023 — Desember 2023</span
+                  >
+                </div>
+
+                <div class="exp-links mb-3 d-flex align-items-center gap-3">
+                  <a
+                    href="https://github.com/SyifaUrRahmi/LAB-WEB-4-2023"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                    Repository
+                  </a>
+                </div>
+                <div class="row text-center g-3 ahli">
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">Laravel</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">PHP</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">MySQL/SQL</div>
+                  </div>
+                </div>
+
+                <!-- Pemrograman Mobile -->
+                <div class="exp-row mt-3">
+                  <span class="experience-org">•&nbsp; Pemrograman Mobile</span>
+                  <span class="divider">|</span>
+                  <span class="experience-year"
+                    >Februari — Juli 2024 & 2025</span
+                  >
+                </div>
+                <div class="exp-links mb-3 d-flex align-items-center gap-3">
+                  <!-- Gambar Dokumentasi (tanpa kotak) -->
+                  <img
+                    src="assets/images/mobile.jpeg"
+                    alt="Dokumentasi SBD"
+                    class="doc-img"
+                  />
+                  <!-- Kotak GitHub -->
+                  <a
+                    href="https://github.com/SyifaUrRahmi/LAB-MOBILE-03-2024"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                    Repository 2024
+                  </a>
+                  <a
+                    href="https://github.com/SyifaUrRahmi/LAB-MOBILE-02-2025"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                    Repository 2025
+                  </a>
+                </div>
+                <div class="row text-center g-3 ahli">
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">Android Studio</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">Java</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="experience-item">
+                <div class="experience-role">
+                  Asisten Dosen — Matematika Dasar
+                </div>
+                <div class="experience-org">Universitas Hasanuddin</div>
+                <div class="experience-year">Februari 2022 — Desember 2024</div>
+                <p class="text-muted small mt-2">
+                  Mengajar konsep dasar matematika, menyusun soal latihan,
+                  membantu pengoreksian, dan memberikan bimbingan tambahan
+                  kepada mahasiswa.
+                </p>
+
+                <div class="exp-links mb-3 d-flex align-items-center gap-3">
+                  <!-- Gambar Dokumentasi (tanpa kotak) -->
+                  <img
+                    src="assets/images/8.png"
+                    alt="Dokumentasi SBD"
+                    class="doc-img"
+                  />
+                  <img
+                    src="assets/images/Sertifikat .png"
+                    alt="Dokumentasi SBD"
+                    class="doc-img"
+                  />
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="experience-item">
+                <div class="experience-role">
+                  Cloud Computing Cohort — Bangkit Academy by Google, GoTo,
+                  Traveloka
+                </div>
+                <div class="experience-org">MSIB Batch 6</div>
+                <div class="experience-year">Februari - Juli 2024</div>
+                <p class="text-muted small mt-2">
+                  Memahami Google Cloud Platform, deploy aplikasi, membuat REST
+                  API, serta mengerjakan capstone project sebagai
+                  <b>backend</b>.
+                </p>
+                <div class="exp-links mb-3 d-flex align-items-center gap-3">
+                  <!-- Gambar Dokumentasi (tanpa kotak) -->
+                  <img
+                    src="assets/images/image.png"
+                    alt="Dokumentasi SBD"
+                    class="doc-img"
+                  />
+                  <!-- Kotak GitHub -->
+                  <a
+                    href="https://app.swaggerhub.com/apis-docs/BULQISRAMADANI4/BarterBuddy-api/1.0.0"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; API
+                    Documentation
+                  </a>
+                  <a
+                    href="https://github.com/SyifaUrRahmi/barterbuddy"
+                    target="_blank"
+                    class="exp-box d-flex align-items-center justify-content-center"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                    Repository
+                  </a>
+                </div>
+                <div class="row text-center g-3 ahli">
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">Node.js</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">Google Cloud Platform</div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="skill-badge p-2">Firestore</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card project-card">
+              <div id="carouselCard1" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/signin.png" class="d-block w-100" />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/loginn.png" class="d-block w-100" />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/selamatdatangsiswa.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/jenisto.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/rincian.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/kerjato.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/hasilto.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/selamatadmin.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/adminuser.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/adminsoal.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/admintambahsoal.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/adminhasilto.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselCard1"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselCard1"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+
+              <div class="card-body">
+                <h5 class="fw-bold">Website Tryout RPC</h5>
+                <p class="small text-muted">
+                  <span class="fw-bold">Project Leader -</span> Laravel • PHP •
+                  MySQL
+                </p>
+                <p style="font-size: xx-small; text-align: justify">
+                  Saya bertanggung jawab atas pengembangan frontend dan
+                  integrasi sistem menggunakan Laravel dan MySQL. Saya
+                  berkontribusi besar pada keseluruhan pengembangan website,
+                  termasuk perancangan antarmuka pengguna (UI), implementasi
+                  fitur utama, serta berkolaborasi dengan tim backend untuk
+                  memastikan sistem berjalan optimal. Ini merupakan versi kedua
+                  dari Website Tryout RPC yang saya kembangkan bersama tim. Pada
+                  versi terbaru ini, saya juga berfokus pada peningkatan
+                  performa, perbaikan alur pengguna, dan penyempurnaan struktur
+                  database agar sistem tryout dapat digunakan lebih efisien dan
+                  stabil.
+                </p>
+
+                <a
+                  href="https://github.com/SyifaUrRahmi/rpc-tryout"
+                  target="_blank"
+                  class="exp-box d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                  Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card project-card">
+              <div id="carouselCard1" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/daftar.png" class="d-block w-100" />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/masuk.png" class="d-block w-100" />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/homerpc.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/tesskd.png" class="d-block w-100" />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/to.png" class="d-block w-100" />
+                    <hr />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/images/hasilskd.png"
+                      class="d-block w-100"
+                    />
+                    <hr />
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselCard1"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselCard1"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+
+              <div class="card-body">
+                <h5 class="fw-bold">Website Tryout RPC Pare-pare</h5>
+                <p class="small text-muted">
+                  <span class="fw-bold">Fullstack -</span> PHP • MySQL
+                </p>
+                <p style="font-size: xx-small; text-align: justify">
+                  Website Tryout RPC adalah sebuah platform ujian online
+                  sederhana yang saya bangun menggunakan PHP Native. Website ini
+                  dirancang khusus untuk membantu siswa melakukan latihan soal
+                  tryout secara online dengan tampilan yang mudah digunakan.
+                  Siswa dapat langsung mengerjakan soal sesuai dengan bank soal
+                  yang telah disediakan di database. seluruh soal diinput secara
+                  manual ke dalam database menggunakan phpMyAdmin sebagai bagian
+                  dari pengelolaan data.
+                </p>
+
+                <a
+                  href="https://github.com/SyifaUrRahmi/website-tryoutrpc"
+                  target="_blank"
+                  class="exp-box d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                  Repository
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card project-card">
+              <img
+                src="assets/images/minasaupa.png"
+                class="card-img-top"
+                alt="project"
+              />
+              <div class="card-body">
+                <h5 class="fw-bold">Landing Page Desa Minasa Upa</h5>
+
+                <p class="small text-muted">
+                  <span class="fw-bold">Frontend -</span> HTML • CSS • Bootstrap
+                  • JavaScript
+                </p>
+                <p style="font-size: xx-small; text-align: justify">
+                  Landing Page Desa Minasa Upa merupakan website informasi desa
+                  yang saya kembangkan sebagai bagian dari program kerja Kuliah
+                  Kerja Nyata (KKN). Website ini bertujuan untuk memperkenalkan
+                  profil desa, potensi wilayah, fasilitas umum, struktur
+                  pemerintahan, serta kegiatan dan informasi penting yang dapat
+                  diakses oleh masyarakat.
+                </p>
+
+                <a
+                  href="https://github.com/SyifaUrRahmi/website-tryoutrpc"
+                  target="_blank"
+                  class="exp-box d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-box-arrow-up-right"></i>&nbsp; GitHub
+                  Repository
+                </a>
+                <a
+                  href="https://desa-minasaupa.vercel.app/"
+                  target="_blank"
+                  class="exp-box d-flex align-items-center justify-content-center mt-2"
+                >
+                  <i class="bi bi-box-arrow-up-right"></i>&nbsp; Live
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row justify-content-center text-center g-3">
+          <div class="col-md-3">
+            <div class="skill-badge">HTML / CSS / Bootstrap</div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill-badge">Laravel / PHP</div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill-badge">JavaScript / Node.js</div>
+          </div>
+          <div class="col-md-3">
+            <div class="skill-badge">MySQL / SQL</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="contact-card p-4 shadow-sm rounded">
+              <ul class="list-unstyled">
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="bi bi-envelope-fill me-3 fs-5"></i>
+                  <span>
+                    <strong>Email:</strong>
+                    <a
+                      href="mailto:sifasisi3@gmail.com"
+                      class="text-primary ms-1"
+                    >
+                      sifasisi3@gmail.com
+                    </a>
+                  </span>
+                </li>
+
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="bi bi-linkedin me-3 text-primary fs-5"></i>
+                  <span>
+                    <strong>LinkedIn:</strong>
+                    <a
+                      href="https://www.linkedin.com/in/syifa-ur-rahmi-6457a6272"
+                      target="_blank"
+                      class="text-primary ms-1"
+                    >
+                      syifa-ur-rahmi-6457a6272
+                    </a>
+                  </span>
+                </li>
+
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="bi bi-github me-3 text-dark fs-5"></i>
+                  <span>
+                    <strong>GitHub:</strong>
+                    <a
+                      href="https://github.com/SyifaUrRahmi"
+                      target="_blank"
+                      class="text-primary ms-1"
+                    >
+                      SyifaUrRahmi
+                    </a>
+                  </span>
+                </li>
+
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="bi bi-instagram me-3 text-danger fs-5"></i>
+                  <span>
+                    <strong>Instagram:</strong>
+                    <a
+                      href="https://instagram.com/syifaurrahmi_amir"
+                      target="_blank"
+                      class="text-primary ms-1"
+                    >
+                      @syifaurrahmi_amir
+                    </a>
+                  </span>
+                </li>
+
+                <li class="mb-3 d-flex align-items-center">
+                  <i class="bi bi-geo-alt-fill me-3 text-success fs-5"></i>
+                  <span> <strong>Location:</strong> Makassar, Indonesia </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center small">
+      <div>© <span id="year"></span> Syifa Ur Rahmi</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

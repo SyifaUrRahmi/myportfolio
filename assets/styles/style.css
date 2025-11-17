@@ -1,0 +1,291 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f7fa;
+}
+.navbar {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+}
+
+.nav-item a {
+  color: white;
+}
+.nav-item .nav-link {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.nav-item .nav-link:hover {
+  border-bottom: 2px solid black; /* warna garis */
+  background-color: transparent;
+}
+
+/* Hero full height */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.hero-img {
+  margin-top: 5%;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.section-title:after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #0d6efd;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+/* project cards minimal */
+.project-card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-badge {
+  background: white;
+  padding: 10px 16px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+  background: white;
+  border-top: 1px solid #eee;
+  padding: 1.5rem 0;
+}
+
+/* Experience */
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* Timeline wrapper */
+.experience-timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid #0d6efd; /* garis biru */
+}
+
+/* Setiap item */
+.experience-item {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* Bullet lingkaran */
+.experience-item::before {
+  content: "";
+  position: absolute;
+  left: -39px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px #0d6efd;
+}
+
+/* Role / Jabatan */
+.experience-role {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Organisasi */
+.experience-org {
+  font-weight: 500;
+  color: #4b4b4b;
+}
+
+/* Tahun */
+.experience-year {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+/* Paragraf */
+.experience-item p {
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+/* Row utama: org | year */
+.exp-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.divider {
+  color: #aaa;
+}
+
+/* Link GitHub */
+.github-link {
+  text-decoration: none;
+  color: #222 !important;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.github-link:hover {
+  opacity: 0.7;
+}
+
+/* Ikon GitHub */
+.github-link i {
+  font-size: 1.1rem;
+  color: #222;
+}
+.exp-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.exp-box {
+  border: 1px solid #ddd;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.exp-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Kotak GitHub */
+.exp-box {
+  border: 1px solid #ddd;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+}
+
+.exp-box:hover {
+  background-color: #f1f1f1;
+  border-color: #ccc;
+}
+
+.exp-box i {
+  font-size: 12px;
+}
+
+/* Gambar dokumentasi tanpa kotak */
+.doc-img {
+  width: 200px;
+  /* height: 100px; */
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.doc-thumb img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Gambar dokumentasi */
+.doc-thumb img {
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  margin-left: 15px;
+}
+
+/* Responsiveness */
+@media (max-width: 576px) {
+  #experience {
+    padding: 5%;
+  }
+  .experience-timeline {
+    padding-left: 20px;
+  }
+
+  .experience-item::before {
+    left: -30px;
+  }
+}
+
+.ahli {
+  font-size: 11px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Membalik warna jadi hitam */
+}
+
+/* Contact */
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.contact-card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+#contact li i {
+  width: 28px;
+  text-align: center;
+}
